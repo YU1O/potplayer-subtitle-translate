@@ -19,7 +19,7 @@ PotPlayer 的实时字幕翻译扩展，通过 OpenAI 兼容 API 翻译当前显
 
 ## 许可与来源
 
-脚本源自 [Felix3322/PotPlayer_ChatGPT_Translate](https://github.com/Felix3322/PotPlayer_ChatGPT_Translate)，上游项目以 **GPL-3.0** 发布（[许可全文](https://github.com/Felix3322/PotPlayer_ChatGPT_Translate/blob/master/LICENSE)）。
+脚本源自 [Felix3322/PotPlayer_ChatGPT_Translate](https://github.com/Felix3322/PotPlayer_ChatGPT_Translate)，上游项目以 **GPL-3.0** 发布（[许可全文](LICENSE)）。
 
 本仓库收录的 `SubtitleTranslate - ChatGPT.as` **不是上游原版**，而是基于上游 v1.9.2 的本地修改版，主要改动：清空预置默认值（改为面板持久化，适配 LM Studio / Ollama）、新增采样温度与重试上限、译文历史成对上下文、目标语言切换时清空历史，以及针对字幕场景重写的提示词与语域词表。图标文件未改动。
 
